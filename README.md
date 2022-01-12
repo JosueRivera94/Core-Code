@@ -27,7 +27,8 @@ R:  Pseudocode CalcularEdad
     Leer (year_birth)
     Mostrar (edad = current_year – yearbirth)
     Fin.
-    
-    Q5. Answer to the question: Why are flowcharts important to us as developers?
-    
-    R: son importates ya que se pueden utilizar como una representación visual del flujo de datos, los diagramas de flujo son útiles para escribir un programa o algoritmo y    explicárselo a otros o colaborar con otros
+
+Q5. Answer to the question: Why are flowcharts important to us as developers?
+
+R: son importates ya que se pueden utilizar como una representación visual del flujo de datos,
+los diagramas de flujo son útiles para escribir un programa o algoritmo y explicárselo a otros o colaborar con otros
