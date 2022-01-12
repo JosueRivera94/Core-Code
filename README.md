@@ -1,7 +1,7 @@
 # Core-Code
 Core Code
 
-# Week challennges (tuesday)
+# Week challenges (tuesday)
 
 Q1.  Java language is compiled or interpreted?
 
@@ -31,4 +31,66 @@ R:  Pseudocode CalcularEdad
 Q5. Answer to the question: Why are flowcharts important to us as developers?
 
 R: son importates ya que se pueden utilizar como una representación visual del flujo de datos,
-los diagramas de flujo son útiles para escribir un programa o algoritmo y explicárselo a otros o colaborar con otros
+los diagramas de flujo son útiles para escribir un programa o algoritmo y explicárselo a otros o colaborar con otros.
+
+
+# Week challenges (wednesday)
+
+Q1. Translate the year you where born to binary, decimal and hexadecimal.
+
+R: year of birth= 1994
+Binary = 11111001010
+decimal = 1994
+hexadecimal = 7CA
+
+Q2. Translate 51966 into hexadecimal and binary.
+
+R: Binary= 1100101011111110
+Hexadecimal = CAFE
+
+Q3. 5.1 Create a program to add two numbers given by the user.
+
+.data
+	number1: .asciiz "\nIngrese el primer numero: "
+	number2: .asciiz "\nIngrese el segundo numero: "
+	message: .asciiz "\nNumeros ingresados: "
+.text
+	main:
+		li $v0, 4
+		la $a0, number1
+		syscall
+
+		li $v0, 5
+		syscall
+
+		move $t0, $v0
+
+		li $v0, 4
+		la $a0, number2
+		syscall
+
+		li $v0, 5
+		syscall
+
+		move $t1, $v0
+		
+		li $v0, 4
+                la $a0, message
+                syscall
+
+		li $v0, 1
+		move $a0, $t0
+		syscall
+
+Q4. 5.2 Create a program that display your name.
+
+.data
+    message: .asciiz "\nMi nombre es: Josue Rivera\n"
+  .text
+    main:
+      li $v0, 4
+      la $a0, message
+      syscall
+
+
+
