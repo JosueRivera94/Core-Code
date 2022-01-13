@@ -50,19 +50,18 @@ Hexadecimal = CAFE
 
 Q3. 5.1 Create a program to add two numbers given by the user.
 
-.data
-	number1: .asciiz "\nIngrese el primer numero: "
-	number2: .asciiz "\nIngrese el segundo numero: "
-	message: .asciiz "\nNumeros ingresados: "
-.text
-	main:
-		li $v0, 4
-		la $a0, number1
-		syscall
+	.data
+		number1: .asciiz "\nIngrese el primer numero: "
+		number2: .asciiz "\nIngrese el segundo numero: "
+		suma:  .asciiz "\nLa suma es: "
+	.text
+		main:
+			li $v0, 4
+			la $a0, number1
+			syscall
 
 		li $v0, 5
 		syscall
-
 		move $t0, $v0
 
 		li $v0, 4
@@ -71,11 +70,19 @@ Q3. 5.1 Create a program to add two numbers given by the user.
 
 		li $v0, 5
 		syscall
-
 		move $t1, $v0
-		
-		li $v0, 4
-                la $a0, message
+
+		Add $t3,$t0,$t1
+
+                li $v0,4 
+                la $a0, suma
+                syscall
+
+                li $v0,1
+                 move $a0,$t3 
+                 syscall
+
+                li $v0,10 
                 syscall
 
 		li $v0, 1
