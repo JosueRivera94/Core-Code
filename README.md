@@ -100,4 +100,11 @@ Q4. 5.2 Create a program that display your name.
       syscall
 
 
+# Week challenges (Thursday)
+
+Q1. Search for real word applications of Javascript
+
+Q2. Follow the github course.
+
+
 
