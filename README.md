@@ -107,7 +107,7 @@ Q1. Search for real word applications of Javascript
 Q2. Follow the github course.
 
 # Week 2 Javascript
-#Week challenges (Monday)
+## Week challenges (Monday)
 
 Q1. Follow the github course. Done
 Q2. Watch this video. Done
