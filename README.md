@@ -122,6 +122,7 @@ Q1. https://www.codewars.com/kata/50654ddff44f800200000004 (Multiply)
 	}
 
 Q2. https://www.codewars.com/kata/572b6b2772a38bc1e700007a (ASCII Total)
+	
 	function uniTotal (string) {
 	 let suma=0;
 	  for(var i=0; i<string.length;i++){
@@ -129,6 +130,9 @@ Q2. https://www.codewars.com/kata/572b6b2772a38bc1e700007a (ASCII Total)
 	  }
 	  return suma;
 	}
+		
+	
+	
 Q3. https://www.codewars.com/kata/55ad04714f0b468e8200001c  (get character from ASCII Value)
 
 	function getChar(c){
