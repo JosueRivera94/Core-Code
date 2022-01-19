@@ -130,11 +130,13 @@ Q2. https://www.codewars.com/kata/572b6b2772a38bc1e700007a (ASCII Total)
 	  return suma;
 	}
 Q3. https://www.codewars.com/kata/55ad04714f0b468e8200001c  (get character from ASCII Value)
+
 	function getChar(c){
 	  let char = String.fromCharCode(c);
-
-	 return char;
+	   return char;
 	}
+
+
 Q4. https://www.codewars.com/kata/551f37452ff852b7bd000139  (Binary Addition)
 	
 	function addBinary(a,b){
