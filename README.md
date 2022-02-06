@@ -120,13 +120,13 @@ Q3. Create an account in Codewars. Done
 
 Q0. Watch this video. Done
 Q1. https://www.codewars.com/kata/50654ddff44f800200000004 (Multiply)
-```
+```javascript
 	function multiply(a, b){
 	  return a*b
 	}
 ```
 Q2. https://www.codewars.com/kata/572b6b2772a38bc1e700007a (ASCII Total)
-```	
+```javascript
 	function uniTotal (string) {
 	 let suma=0;
 	  for(var i=0; i<string.length;i++){
@@ -137,7 +137,7 @@ Q2. https://www.codewars.com/kata/572b6b2772a38bc1e700007a (ASCII Total)
 ```
 	
 Q3. https://www.codewars.com/kata/55ad04714f0b468e8200001c  (get character from ASCII Value)
-```
+```javascript
 	function getChar(c){
 	  let char = String.fromCharCode(c);
 	   return char;
@@ -145,7 +145,7 @@ Q3. https://www.codewars.com/kata/55ad04714f0b468e8200001c  (get character from 
 ```
 
 Q4. https://www.codewars.com/kata/551f37452ff852b7bd000139  (Binary Addition)
-```
+```javascript
 	function addBinary(a,b){
 	  let add = a+b;
 	  let cB= add.toString(2);
