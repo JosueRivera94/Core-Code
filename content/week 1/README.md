@@ -1,6 +1,6 @@
 # Week 1 : Introduction to programming & Javascript
 ---
-* Week challenges (tuesday)
+## Week challenges (tuesday)
 
 Q1.  Java language is compiled or interpreted?
 
@@ -33,7 +33,7 @@ R: son importates ya que se pueden utilizar como una representación visual del 
 los diagramas de flujo son útiles para escribir un programa o algoritmo y explicárselo a otros o colaborar con otros.
 
 
-* Week challenges (wednesday)
+## Week challenges (wednesday)
 
 Q1. Translate the year you where born to binary, decimal and hexadecimal.
 ```
@@ -99,7 +99,7 @@ Q4. 5.2 Create a program that display your name.
       syscall
 ```
 
-* Week challenges (Thursday)
+## Week challenges (Thursday)
 
 Q1. Search for real word applications of Javascript
 
