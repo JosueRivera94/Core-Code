@@ -7,7 +7,7 @@ Q2. Watch this video. Done
 Q3. Read this. Done
 Q3. Create an account in Codewars. Done
 
-## Week challenges (Monday)
+## Week challenges (Tuesday)
 
 Q0. Watch this video. Done
 Q1. https://www.codewars.com/kata/50654ddff44f800200000004 (Multiply)
