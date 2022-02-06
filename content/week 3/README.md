@@ -107,11 +107,49 @@ function duplicateCount(text){
 ---
 ## Week challenges (Wednesday)
 1. https://www.codewars.com/kata/52774a314c2333f0a7000688
+```javascript
+function validParentheses(parens) {
+var indent = 0;
+  
+  for (var i = 0 ; i < parens.length && indent >= 0; i++) {
+    indent += (parens[i] == '(') ? 1 : -1;    
+  }
+  
+  return (indent == 0);
+}
+ ```
 
 2. https://www.codewars.com/kata/517abf86da9663f1d2000003
+```javascript
+function toCamelCase(str){
+str = str.split('');
+  return str.map(function(el, i){
+    if(el == '-' || el == '_'){
+      el = str[i+1].toUpperCase();
+      str.splice(i+1, 1);
+    }
+    return el;
+  }).join('');
+}
+ ```
 
 3. https://www.codewars.com/kata/54e6533c92449cc251001667
-
+```javascript
+var uniqueInOrder=function(iterable){
+ if(iterable.length == 0) return [];
+  var stage= [iterable[0]];
+  if(typeof iterable === 'string'){
+    iterable = iterable.split('');
+  }  
+  iterable.reduce(function(pre,cur){
+    if(pre != cur){
+      stage.push(cur)
+    }
+    return cur;
+  });
+  return stage
+}
+ ```
 
 ---
 ## Week challenges (Thursday)
