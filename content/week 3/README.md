@@ -2,7 +2,7 @@
 ---
 ## Week challenges (Monday)
 1. https://www.codewars.com/kata/5266876b8f4bf2da9b000362
-```javascrip
+```javascript
 function likes(names) {
     if (names.length == 0) {
       return "no one likes this";
@@ -23,7 +23,7 @@ function likes(names) {
   ```
 
 2. https://www.codewars.com/kata/526571aae218b8ee490006f4
-```javascrip
+```javascript
 var countBits = function(n) {
     const base = (n).toString(2).split('');
     
@@ -35,7 +35,7 @@ var countBits = function(n) {
   ```
   
 3. https://www.codewars.com/kata/54b724efac3d5402db00065e
-```javascrip
+```javascript
 decodeMorse = function(morseCode){
     morseCode = morseCode.trim();
   let refinedData = morseCode.split('   ');
@@ -60,7 +60,7 @@ decodeMorse = function(morseCode){
 ---
 ## Week challenges (Tuesday)
 1. https://www.codewars.com/kata/55c45be3b2079eccff00010f
-```javascrip
+```javascript
 function order(words){
     return words.split(' ').sort(function(a,b){
         return a.match(/\d/) - b.match(/\d/);
@@ -69,7 +69,7 @@ function order(words){
   ```
 
 2. https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1
-```javascrip
+```javascript
 function duplicateCount(text){
     let result = 0,
       soltingObject = {};
@@ -88,7 +88,7 @@ function duplicateCount(text){
  ```
 
 3. https://www.codewars.com/kata/520b9d2ad5c005041100000f
-```javascrip
+```javascript
  function pigIt(str){
     let strArr = str.split(' ');
   let pigLatin = [];
@@ -116,7 +116,7 @@ function duplicateCount(text){
 ---
 ## Week challenges (Thursday)
 1. https://www.codewars.com/kata/57ea70aa5500adfe8a000110
-```javascrip
+```javascript
 function foldArray(array, runs)
 {
   const r = [], c = array.slice();
@@ -126,7 +126,7 @@ function foldArray(array, runs)
  ```
 
 2.https://www.codewars.com/kata/5848565e273af816fb000449
-```javascrip
+```javascript
 var encryptThis = function(text) {
   if(text === '') {return '';
     }else {
@@ -142,7 +142,7 @@ var encryptThis = function(text) {
  ```
 
 3.https://www.codewars.com/kata/53368a47e38700bd8300030d
-```javascrip
+```javascript
 function list(names){
   if(names.map(v=>v.name).length>1) return names.map(v=>v.name).slice(0,-1).join(', ')+' & '+names.map(v=>v.name).slice(-1)
   return names.map(v=>v.name).slice(-1)+''
