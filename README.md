@@ -8,6 +8,12 @@
 * Week 2: [Javascript](https://github.com/JosueRivera94/Core-Code/tree/main/content/week%202)
 ---
 
+* Week 3: [Javascript](https://github.com/JosueRivera94/Core-Code/tree/main/content/week%203)
+---
+
+* Week 4: [npm,npx & Typescript](https://github.com/JosueRivera94/Core-Code/tree/main/content/week%204)
+---
+
 
 
 
