@@ -45,5 +45,8 @@ Q4. https://www.codewars.com/kata/551f37452ff852b7bd000139  (Binary Addition)
 	console.log(addBinary(5,3))
 ```
 Q5. https://www.codewars.com/kata/5ad0d8356165e63c140014d4 (Student's Final Grade)
-	
+
+## Week challenges (Wednesday)
+
+## Week challenges (Thursday)
 
