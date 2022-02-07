@@ -1,6 +1,6 @@
 # Week 4 npm,npx & Typescript 
 ---
-## Week challenges (Monday)
+## 📖 Week challenges (Monday)
 1. Check this video: 
   Regular Expressions (RegEx) in 100 Seconds (DONE).
 2. Follow this video:
@@ -15,7 +15,7 @@
   ¿Cómo funcionan las Promises y Async/Await en JavaScript? (DONE).
 
 ---
-## Week challenges (Tuesday)
+## 📖 Week challenges (Tuesday)
 1. This link is nice to have and read:
   The TypeScript Handbook (DONE).
 2. Typescript object type:
@@ -61,7 +61,7 @@ return result;
 ```
   
 ---
-## Week challenges (Wednesday)
+## 📖 Week challenges (Wednesday)
 1. Array.diff
 ```javascript
 function arrayDiff(a, b) {
@@ -93,7 +93,7 @@ function arrayDiff(a, b) {
   TypeScript — Object Oriented Programming (DONE).
 
 ---
-## Week challenges (Thursday)
+## 📖 Week challenges (Thursday)
 1. Detect Pangram
 ```javascript
 function isPangram(string){
