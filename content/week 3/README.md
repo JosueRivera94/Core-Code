@@ -1,6 +1,6 @@
 # Week 3 Javascript
 ---
-## Week challenges (Monday)
+## 📖 Week challenges (Monday)
 1. https://www.codewars.com/kata/5266876b8f4bf2da9b000362
 ```javascript
 function likes(names) {
@@ -58,7 +58,7 @@ decodeMorse = function(morseCode){
   ```
   
 ---
-## Week challenges (Tuesday)
+## 📖 Week challenges (Tuesday)
 1. https://www.codewars.com/kata/55c45be3b2079eccff00010f
 ```javascript
 function order(words){
@@ -105,7 +105,7 @@ function duplicateCount(text){
  ```
 
 ---
-## Week challenges (Wednesday)
+## 📖 Week challenges (Wednesday)
 1. https://www.codewars.com/kata/52774a314c2333f0a7000688
 ```javascript
 function validParentheses(parens) {
@@ -152,7 +152,7 @@ var uniqueInOrder=function(iterable){
  ```
 
 ---
-## Week challenges (Thursday)
+## 📖 Week challenges (Thursday)
 1. https://www.codewars.com/kata/57ea70aa5500adfe8a000110
 ```javascript
 function foldArray(array, runs)
