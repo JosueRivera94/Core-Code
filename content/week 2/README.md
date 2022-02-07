@@ -1,13 +1,13 @@
 # Week 2 Javascript
 ---
-## Week challenges (Monday)
+## 📖 Week challenges (Monday)
 
 Q1. Follow the github course. Done
 Q2. Watch this video. Done
 Q3. Read this. Done
 Q3. Create an account in Codewars. Done
 
-## Week challenges (Tuesday)
+## 📖 Week challenges (Tuesday)
 
 Q0. Watch this video. Done
 Q1. https://www.codewars.com/kata/50654ddff44f800200000004 (Multiply)
@@ -46,7 +46,7 @@ Q4. https://www.codewars.com/kata/551f37452ff852b7bd000139  (Binary Addition)
 ```
 Q5. https://www.codewars.com/kata/5ad0d8356165e63c140014d4 (Student's Final Grade)
 
-## Week challenges (Wednesday)
+## 📖 Week challenges (Wednesday)
 1. https://www.codewars.com/kata/57e92e91b63b6cbac20001e5
 ```javascript
 function dutyFree(normPrice, discount, hol){
@@ -80,7 +80,7 @@ function fakeBin(x){
 }
 ```
 
-## Week challenges (Thursday)
+## 📖 Week challenges (Thursday)
 1. https://www.codewars.com/kata/57faece99610ced690000165
 ```javascript
 function remove (string) { 
