@@ -138,9 +138,7 @@ function revrot(str, sz) {
 
 5. What's Your Poison?
 ```javascript
-function find(rats) {
-   return rats.reduce((a,b)=>a+Math.pow(2,b),0)
-}
+
 ```
 6. Complete your 3rd Core Challenge. 
 
