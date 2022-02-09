@@ -2,10 +2,10 @@
 ---
 ## 📖 Week challenges (Monday)
 
-Q1. Follow the github course. Done
-Q2. Watch this video. Done
-Q3. Read this. Done
-Q3. Create an account in Codewars. Done
+Q1. Follow the github course. Done <br>
+Q2. Watch this video. Done <br>
+Q3. Read this. Done <br>
+Q3. Create an account in Codewars. Done <br>
 
 ## 📖 Week challenges (Tuesday)
 
