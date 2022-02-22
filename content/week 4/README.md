@@ -142,5 +142,5 @@ function find(rats) {
   return rats.reduce((a,b)=>a+Math.pow(2,b),0)
 }
 ```
-6. Complete your 3rd Core Challenge. 
+6. Complete your 3rd Core Challenge. GitHub Boost Guide! (DONE)
 
