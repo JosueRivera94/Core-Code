@@ -187,4 +187,4 @@ function list(names){
 }
  ```
 
-4. Complete your 2nd Core Challenge. 
+4. Complete your 2nd Core Challenge.  LinkedIn Boost Guide! (DONE)
