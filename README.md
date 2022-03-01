@@ -23,7 +23,7 @@
 * Week 7: [Typescript]()
 ---
 
-* Week 8: [HTML & CSS]()
+* Week 8: [HTML & CSS](https://github.com/JosueRivera94/Core-Code/blob/main/content/week%208/Readme.md)
 ---
 
 
