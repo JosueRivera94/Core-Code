@@ -23,6 +23,8 @@
 * Week 7: [Typescript]()
 ---
 
+* Week 8: [HTML & CSS]()
+---
 
 
 
