@@ -14,13 +14,13 @@
 * Week 4: [npm,npx & Typescript](https://github.com/JosueRivera94/Core-Code/tree/main/content/week%204)
 ---
 
-* Week 5: [Typescript]()
+* Week 5: [Typescript](https://github.com/JosueRivera94/Core-Code/tree/main/content/week%205)
 ---
 
-* Week 6: [Typescript]()
+* Week 6: [Typescript](https://github.com/JosueRivera94/Core-Code/tree/main/content/week%206)
 ---
 
-* Week 7: [Typescript]()
+* Week 7: [Typescript](https://github.com/JosueRivera94/Core-Code/tree/main/content/week%207)
 ---
 
 * Week 8: [HTML & CSS](https://github.com/JosueRivera94/Core-Code/blob/main/content/week%208/Readme.md)
