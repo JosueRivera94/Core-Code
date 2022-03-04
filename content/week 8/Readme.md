@@ -273,4 +273,4 @@
 2. Create a website that using javascript, when you press a button will change the background to a random color.
 ```html
 ```
-3. 5th Core Challenge, update your resume (In Progress)
+3. 5th Core Challenge, update your resume (DONE)
