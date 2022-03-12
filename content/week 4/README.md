@@ -122,17 +122,38 @@ return +arr.filter( (value) => { return arr.indexOf(value) == arr.lastIndexOf(va
 
 4. Reverse or rotate?
 ```javascript
-function revrot(str, sz) {
- ln = str.length;
-   if(sz < 1 || !str || sz > ln) return "";
-
-   const test = s => Array.prototype.reduce.call(s, (acc, val) => acc + Number(val) ** 3, 0) % 2 === 0;
-   const reverse = s => s.split("").reverse().join("");
-   const rotate = s => s.slice(1) + s.slice(0, 1);
-
-   let arr = [];
-   for(let i = 0; i < ln; i += sz) arr.push(i+sz <= ln ? str.slice(i, i+sz) : "")
-   return arr.map(x => test(x) ? reverse(x) : rotate(x)).join("");
+const G964 = (arr, slice) => {
+    let arrNum = [];
+    let reverseCondition = [];
+    let cont = 0;
+    if (slice <= 0 || arr == '' || slice > arr.length)
+        return '';
+    if (slice == arr.length)
+        return arr;
+    for (let i = 0; i < arr.length; i += slice) {
+        let chunck = arr.split('').map((x) => parseInt(x)).splice(i, i + slice);
+        arrNum.push(chunck);
+    }
+    reverseCondition = arrNum.map((x) => {
+        return x.reduce((acc, el) => {
+            acc += el * el * el;
+            return acc;
+        }, 0) % 2 === 0;
+    });
+    for (let i = 0; i < reverseCondition.length; i++) {
+        if (reverseCondition[i] == true)
+            arrNum[i] = arrNum[i].reverse();
+        else {
+            arrNum[i].push(arrNum[i][0]);
+            arrNum[i] = arrNum[i].slice(1);
+        }
+    }
+    arrNum = arrNum.map((x) => {
+        return x.join('').toString();
+    });
+    return arrNum.join('');
+};
+console.log(G964("330479108928157", 5));
 }
 ```
 
