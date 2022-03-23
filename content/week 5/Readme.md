@@ -195,4 +195,4 @@ export function longestConsec(strarr: string[], k: number): string {
 ```
 
 
-4.  Complete your 4th Core Challenge (In Progess)
+4.  Complete your 4th Core Challenge (DONE)
